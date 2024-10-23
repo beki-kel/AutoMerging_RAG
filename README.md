@@ -29,7 +29,7 @@
          flask run
   4. Add environment variables:
        ```.env
-           GEMNI_API_KEY = "YOUR API KEY"           
+           GEMINI_API_KEY = "YOUR API KEY"           
   5. Set up the Next.js frontend:
      ```bash
          cd ../front
