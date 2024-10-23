@@ -9,3 +9,4 @@ torch
 torchvision 
 langchain-community
 gunicorn
+flask-cors

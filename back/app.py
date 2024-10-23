@@ -8,11 +8,12 @@ from llama_index.core.indices.postprocessor import SentenceTransformerRerank
 from llama_index.core.query_engine import RetrieverQueryEngine
 import os
 from dotenv import load_dotenv
-
+from flask_cors import CORS 
 # Load environment variables from .env file
 load_dotenv()
 
 app = Flask(__name__)
+CORS(app)
 
 # Initialize global variables for index and query engine
 index = None
