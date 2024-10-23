@@ -1,0 +1,7 @@
+Flask==2.2.5
+python-dotenv==1.0.0
+llama-index==0.5.0  # Adjust the version depending on the actual package version used
+transformers==4.31.0  # Required for Gemini and SentenceTransformerRerank
+sentence-transformers==2.2.2  # For SentenceTransformerRerank
+torch==2.0.1  # Required for the underlying LLM embeddings and reranking
+torchvision==0.15.2  # If needed for torchvision dependencies in torch
