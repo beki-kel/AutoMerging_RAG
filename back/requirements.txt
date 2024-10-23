@@ -1,7 +1,7 @@
 Flask
 python-dotenv
 llama-index-core
-llama-index-embeddings-huggingfacem
+llama-index-embeddings-huggingface
 llama-index-llms-gemini
 transformers 
 sentence-transformers  
