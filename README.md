@@ -1,6 +1,7 @@
 # AutoMerging RAG
-  It is a type of rag system that tries to solve the struggle of providing to-the-point context to llm. It works by defining a hierarchy of smaller chunks linked to parent chunks. If the set of smaller chunks linking to a parent chunk exceeds some threshold, then it merges smaller chunks to the bigger parent chunk. for more [auto-merge.pdf](https://drive.google.com/file/d/113jshHW0dhJyg8Hp0wYloYB6K_dXT8eV/view?usp=sharing)
-  The dataset used is [ECAN and PatternMiner Paper](https://drive.google.com/file/d/17RtcXNhCXGveT3E4ygC4i-AcTIHVAaB4/view?usp=sharing) of opencog.
+  - It is a type of rag system that tries to solve the struggle of providing to-the-point context to llm. It works by defining a hierarchy of smaller chunks linked to parent chunks. If the set of smaller chunks linking to a parent chunk exceeds some threshold, then it merges smaller chunks to the bigger parent chunk. for more [auto-merge.pdf](https://drive.google.com/file/d/113jshHW0dhJyg8Hp0wYloYB6K_dXT8eV/view?usp=sharing)
+  
+  - The dataset used is [ECAN and PatternMiner Paper](https://drive.google.com/file/d/17RtcXNhCXGveT3E4ygC4i-AcTIHVAaB4/view?usp=sharing) of opencog.
 
 ## features
   -  *Flask Backend*: Handles API requests, merges logic, and serves retrieved content.
